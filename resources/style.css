@@ -94,6 +94,37 @@ nav a {
   top: 12rem;
 }
 
+.interests {
+  max-width: 100%;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book {
+  height: 500px;
+  width: 380px;
+  padding: 40px;
+  position: relative;
+  top: 3rem;
+}
+
+.image-content p {
+  position: relative;
+  top: 3rem;
+}
+
+.images {
+  /*width: 30%;*/
+  display: flex;
+  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
 
 /*.main {
   display: flex;
