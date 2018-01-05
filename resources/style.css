@@ -119,12 +119,22 @@ nav a {
 
 .images {
   /*width: 30%;*/
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   /*display: flex;
   flex-wrap: wrap;*/
 }
 
+#eat-text h1 {
+   font-size: 1.5rem;
+   position: relative;
+   top: 5rem;
+}
+
+#eat-text p {
+  position: relative;
+  top: 10rem;
+}
 
 /*.main {
   display: flex;
