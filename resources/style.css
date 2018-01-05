@@ -125,6 +125,10 @@ nav a {
   flex-wrap: wrap;*/
 }
 
+.images p {
+  font-size: .75rem;
+}
+
 #eat-text h1 {
    font-size: 1.5rem;
    position: relative;
