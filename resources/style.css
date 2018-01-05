@@ -98,7 +98,7 @@ nav a {
   max-width: 100%;
 }
 
-.image-content {
+.image-content-book {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -112,24 +112,34 @@ nav a {
   top: 3rem;
 }
 
-.image-content p {
+.image-content-book p {
   position: relative;
   top: 3rem;
-}
-
-.images {
-  /*width: 30%;*/
-  /*display: flex;
-  flex-wrap: wrap;*/
-  /*display: flex;
-  flex-wrap: wrap;*/
-}
-
-.images p {
   font-size: .75rem;
 }
 
-#eat-text h1 {
+.images-book {
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+/*.images p {
+  font-size: .75rem;
+}*/
+
+.image-content-eat {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-content-eat p {
+  position: relative;
+  top: 8rem;
+  font-size: .75rem;
+}
+
+/*#eat-text h1 {
    font-size: 1.5rem;
    position: relative;
    top: 5rem;
@@ -138,7 +148,27 @@ nav a {
 #eat-text p {
   position: relative;
   top: 10rem;
+}*/
+
+.food {
+  height: 380px;
+  width: 500px;
+  padding: 2rem;
+  position: relative;
+  top: 7rem;
 }
+
+#eat-text h1 {
+  position: relative;
+  top: 4rem;
+  font-size: 1.5rem;
+}
+
+#eat-text p {
+  position: relative;
+  top: 10rem;
+}
+
 
 /*.main {
   display: flex;
