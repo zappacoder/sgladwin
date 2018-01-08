@@ -178,8 +178,8 @@ nav a {
 @media only screen and (max-width: 480px) {
 
 .food {
-  height: 600px;
-  width: 900px;
+  height: 265px;
+  width: 400px;
   padding: 0rem;
   position: relative;
   top: 7rem;
