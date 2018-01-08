@@ -78,10 +78,14 @@ nav a {
   margin: 0 auto;
 }*/
 
+
+
+
 #readtext h1 {
    font-size: 1.5rem;
    position: relative;
    top: 9rem;
+   
 }
 
 #readtext img {
@@ -169,6 +173,21 @@ nav a {
   top: 10rem;
 }
 
+/*Begin Media Queries*/
+
+@media only screen and (max-width: 480px) {
+
+.food {
+  height: 600px;
+  width: 900px;
+  padding: 0rem;
+  position: relative;
+  top: 7rem;
+
+}
+
+}
+
 
 /*.main {
   display: flex;
@@ -196,11 +215,7 @@ nav a {
   flex-direction: column;
 }
 */
-.tea_month {
-  width: 100%;
-  /*display: flex;*/
-  /*border: 2px solid red;*/
-}
+
 
 /*.image_content {
   display: flex;
