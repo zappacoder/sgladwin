@@ -175,7 +175,7 @@ nav a {
 
 /*Begin Media Queries*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (orientation: portrait) {
 
 .food {
   height: 265px;
