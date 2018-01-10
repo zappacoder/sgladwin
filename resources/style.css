@@ -7,6 +7,10 @@ html, body {
   text-align: center;
 }
 
+body {
+  padding-top: 140px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -17,6 +21,7 @@ header {
   z-index: 1;
   height: 69px;
   background-color: black;
+  top: 0;
 }
 /*.logo {
   display: flex;*/
@@ -36,6 +41,7 @@ nav {
 
 nav p {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 nav a {
@@ -43,59 +49,62 @@ nav a {
   color: seashell;
 }
 
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 3rem;
+}
+
+.container h1 {
+  background: #fff;
+  color: #000;
+  line-height: 2rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
 .main {
-  height: 40rem;
-  width: 48rem;
-  /*height: 33rem;
-  width: 48rem;*/
-  /*width: 80%;*/
-  /*display: flex;*/
   margin: 0 auto;
-/*  align-content: center;*/
 }
 
 .main img {
-  position: relative;
-  top: 7rem;
 
+}
+
+#about {
+  margin-top: 4rem;
 }
 
 #about h1 {
-  position: relative;
-  top: 9rem;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 #about p {
-   /*font-size: 1.5rem;*/
-   position: relative;
-   top: 10rem;
+
 }
-
-/*#read {
-  height: 48rem;
-  width: 25rem;
-  margin: 0 auto;
-}*/
-
-
-
 
 #readtext h1 {
    font-size: 1.5rem;
-   position: relative;
-   top: 9rem;
-   
 }
 
 #readtext img {
-  position: relative;
-  top: 10rem;
+
 }
 
 #readtext p {
-  position: relative;
-  top: 12rem;
+
 }
 
 .interests {
@@ -108,28 +117,17 @@ nav a {
   flex-wrap: wrap;
 }
 
-.book {
-  height: 500px;
-  width: 380px;
+.images-book {
   padding: 40px;
-  position: relative;
-  top: 3rem;
+}
+
+.book {
+  width: 380px;
 }
 
 .image-content-book p {
-  position: relative;
-  top: 3rem;
   font-size: .75rem;
 }
-
-.images-book {
-  /*display: flex;
-  flex-direction: column;*/
-}
-
-/*.images p {
-  font-size: .75rem;
-}*/
 
 .image-content-eat {
   display: flex;
@@ -138,54 +136,44 @@ nav a {
 }
 
 .image-content-eat p {
-  position: relative;
-  top: 8rem;
   font-size: .75rem;
 }
 
-/*#eat-text h1 {
-   font-size: 1.5rem;
-   position: relative;
-   top: 5rem;
+.images-eat {
+  padding: 2rem;
 }
 
-#eat-text p {
-  position: relative;
-  top: 10rem;
-}*/
-
 .food {
-  height: 380px;
   width: 500px;
-  padding: 2rem;
-  position: relative;
-  top: 7rem;
 }
 
 #eat-text h1 {
-  position: relative;
-  top: 4rem;
   font-size: 1.5rem;
-}
-
-#eat-text p {
-  position: relative;
-  top: 10rem;
 }
 
 /*Begin Media Queries*/
 
 @media screen and (max-width: 480px) {
-
-
-.food {
-  height: 265px;
-  width: 400px;
-  padding: 0rem;
-  position: relative;
-  top: 7rem;
-
+  .container h1 {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .container {
+    padding: 0 1.5rem;
+  }
+  .food {
+    width: 400px;
+  }
 }
 
+@media screen and (max-width: 700px) {
+  .image-content-eat {
+    display: block;
+  }
+  .images-eat {
+    padding: 0;
+  }
+  .food {
+    width: 100%;
+  }
 }
-
