@@ -19,6 +19,7 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+<<<<<<< HEAD
   height: 90px;
   background-color: seashell;
   top: 0;
@@ -27,6 +28,11 @@ header {
 header span {
   color: black;
   padding-left: .5rem;
+=======
+  height: 69px;
+  background-color: black;
+  top: 0;
+>>>>>>> d893351a35263990ee215ba2d353af8b590a3e7d
 }
 /*.logo {
   display: flex;*/
@@ -87,6 +93,31 @@ img {
   
 }
 
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 3rem;
+}
+
+.container h1 {
+  background: #fff;
+  color: #000;
+  line-height: 2rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
 .main {
   margin: 0 auto;
 }
@@ -97,6 +128,7 @@ img {
 
 #about {
   margin-top: 4rem;
+<<<<<<< HEAD
 }
 
 #about span {
@@ -108,6 +140,15 @@ img {
   margin-bottom: 1rem;
 }
 
+=======
+}
+
+#about h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+>>>>>>> d893351a35263990ee215ba2d353af8b590a3e7d
 #about p {
 
 }
@@ -172,6 +213,7 @@ img {
   font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 #watch-text h1 {
   font-size: 1.5rem;
 }
@@ -190,6 +232,8 @@ img {
   width: 400px;
 }
 
+=======
+>>>>>>> d893351a35263990ee215ba2d353af8b590a3e7d
 /*Begin Media Queries*/
 
 @media screen and (max-width: 480px) {
